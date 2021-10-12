@@ -1,0 +1,22 @@
+{
+  "type": "record",
+  "name": "UserDetails",
+  "namespace": "br.com.zup.kafkaavro.avro",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "doc": "Full Name"
+    },
+    {
+      "name": "cpf",
+      "type": "string",
+      "doc": "CPF 000.000.000-00"
+    },
+    {
+      "name": "address",
+      "type": "string",
+      "doc": "Full Address"
+    }
+  ]
+}
